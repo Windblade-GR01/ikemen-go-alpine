@@ -18,4 +18,7 @@ RUN apk add --no-cache \
 # Install components for GO compilation.
 RUN apk add --no-cache \
 	git \
-	go
+	go \
+# Linux dependencies
+	openal-soft-dev \
+	gtk+3.0-dev
